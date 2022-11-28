@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            width: 400px;
+            transform: skew(10deg);
+            animation: movearound;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+
+        }
+
+        @keyframes movearound {
+            from {
+                transform: translateY(-500px);}
+            to {
+                transform: scaleX(0.01) }
+            }
+        
+        @keyframes dancingmachine {
+            0% {
+                transform: rotate(25deg);
+            }
+            25% {
+                transform: skewX(20deg);
+            }
+            50% {
+                transform: translateX(300);
+            }
+            80% {
+                transform: skew(90deg);
+            }
+            100% {
+                transform: scaleY(0.01);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+<img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/11170/29ce3170-3054-4f18-9f77-f17a02431c60.jpg" alt="">
+</body>
+</html>
